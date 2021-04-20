@@ -1,0 +1,124 @@
+/* GENERALI */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* HEADER */
+.container_header{
+  height: 80px;
+  margin: 50px auto;
+  background-color: burlywood;
+  border-radius: 20px;
+}
+
+.container_header h1{
+  color: white;
+  line-height: 75px;
+  text-align: center;
+}
+
+/* MAIN */
+.wrapper{
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.immagini{
+  text-align: center;
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+}
+
+.immagini img{
+  display: none;
+}
+
+.immagini img.active{
+  display: inline-block;
+}
+
+.arrow_left{
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrow_right{
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.freccia{
+  color: burlywood;
+  font-size: 50px;
+}
+
+main img{
+  width: 600px;
+  padding: 20px;
+}
+
+.slider_control{
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.pallini{
+  width: 20%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 20px; 
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translatex(-50%) 
+}
+
+.pallini i{
+  line-height: 50px;
+  margin-right: 8px;
+}
+
+.pallini i.active{
+ color: burlywood;
+}
+
+
+/* FOOTER */
+.cta{
+  height: 80px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn_style{
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: burlywood;
+}
